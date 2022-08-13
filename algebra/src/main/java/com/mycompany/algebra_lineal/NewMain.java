@@ -10,4 +10,8 @@ public class NewMain {
 
     }
     
+    public static void iniciar_Sistema(){
+        frm_PedirDatos pedirDatos = new frm_PedirDatos();
+        pedirDatos.setVisible(true);
+    }
 }

@@ -1,13 +1,14 @@
 
+
 package com.mycompany.algebra_lineal;
 
 
-public class NewMain {
 
-    
+
+public class Main {
+
     public static void main(String[] args) {
         iniciar_Sistema();
-
     }
     
     public static void iniciar_Sistema(){

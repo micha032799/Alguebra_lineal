@@ -22,18 +22,16 @@ public class Matiz {
     }
     public static void ingresar_datos(int [][] x){
         JOptionPane.showMessageDialog(null, "Ingrese los valores pata llenar la Matriz");
-        for (int i = 0; i < x.length; i++) {
-            for (int j = 0; j < x[i].length; j++) {
+        for (int i = 0; i < x[i].length; i++) {
+            for (int j = 0; j < x[j].length; j++) {
          i = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de filas: " ));
          j=  Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de columnas: " ));
-               x = new int [i][j]; 
             }   
         }
     }
     public static void resultados(int [][]x){
-       for (int i = 0; i < x.length; i++) {
-            for (int j = 0; j < x[i].length; j++) {
-            x = new int [i][j];     
+       for (int i = 0; i < x[i].length; i++) {
+            for (int j = 0; j < x[j].length; j++) {     
        JOptionPane.showMessageDialog(null, x[i][j]);  
             }
         } 

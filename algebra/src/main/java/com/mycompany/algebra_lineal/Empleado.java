@@ -17,10 +17,11 @@ public class Empleado extends Persona{
         
        /* this.num_contrato = JOptionPane.showInputDialog(null, "Digite el numero "
                 + "de contrato del cliente");
-        this.servicio = JOptionPane.showInputDialog(null, "Digite el nombre "
+       @Override this.servicio = JOptionPane.showInputDialog(null, "Digite el nombre "
                 + "del servicio por el cual está suscrito en el sistema");
         this.nom_Barrio = JOptionPane.showInputDialog(null, "Digite el nombre "
                 + "del barrio en el cual se va a realizar la instalación");
                 */
     }
+    
 }

@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 import java.util.Scanner;
 
-public class Matiz {
+public class Matriz {
 
     public static int[][] matriz = null;
 

@@ -3,7 +3,7 @@
 package com.mycompany.algebra_lineal;
 
 
-import static com.mycompany.algebra_lineal.Matiz.matriz;
+import static com.mycompany.algebra_lineal.Matriz.matriz;
 import javax.swing.JOptionPane;
 
 
@@ -14,11 +14,11 @@ public class Main {
     public static void main(String[] args) {
 //        iniciar_Sistema();
 
-        matriz = Matiz.tama(matriz);
+        matriz = Matriz.tama(matriz);
         JOptionPane.showMessageDialog(null, "El tamaño de las filas es: "+ matriz.length);
         JOptionPane.showMessageDialog(null, "El tamaño de las columnas es: "+ matriz[0].length);
-        Matiz.ingresar_datos(matriz);
-        Matiz.resultados(matriz);
+        Matriz.ingresar_datos(matriz);
+        Matriz.resultados(matriz);
         
 
     }

@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 public class Main {
     
     public static void main(String[] args) {
-//        iniciar_Sistema();
+
 
         matriz = Matriz.tama(matriz);
         JOptionPane.showMessageDialog(null, "El tamaño de las filas es: "+ matriz.length);
@@ -23,8 +23,5 @@ public class Main {
 
     }
     
-//    public static void iniciar_Sistema(){
-//        frm_PedirDatos_ pedirDatos = new frm_PedirDatos_();
-//        pedirDatos.setVisible(true);
-//    }
+
 }
